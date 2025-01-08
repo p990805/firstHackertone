@@ -1,0 +1,60 @@
+.local-spaces-section {
+    padding: 4rem 2rem;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center; /* 전체 섹션을 중앙 정렬 */
+    align-items: center;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between; /* 왼쪽 텍스트와 오른쪽 버튼을 나눔 */
+    align-items: center; /* 수직 정렬 */
+    width: 100%;
+    max-width: 1200px; /* 섹션의 최대 너비 */
+    position: relative; /* 버튼 위치를 텍스트 기준으로 조정할 수 있도록 설정 */
+  }
+  
+  .text-container {
+    flex: 1; /* 왼쪽 텍스트가 공간을 차지하도록 설정 */
+    text-align: left;
+  }
+  
+  .text-container h2 {
+    font-size: 2.5rem; /* 제목 크기 */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .text-container p {
+    font-size: 1.2rem; /* 텍스트 크기 */
+    color: #555;
+  }
+  
+  .more-button-container {
+    position: absolute;
+    right: 0; /* 오른쪽 끝으로 정렬 */
+    top: 50%; /* 세로 중앙 정렬 */
+    transform: translateY(-50%); /* 정확한 세로 중앙 정렬 */
+  }
+  
+  .more-button {
+    background-color: #6d6d6d90 !important;
+    color: #fff;
+    border: none;
+    width: 60px; /* 버튼 크기 */
+    height: 60px;
+    border-radius: 50%; /* 버튼을 완전한 원형으로 */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .more-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* 버튼 확대 효과 */
+  }
+  
