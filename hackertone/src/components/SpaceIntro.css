@@ -1,0 +1,71 @@
+.space-intro-section {
+    padding: 4rem 2rem;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column; /* 위아래 배치 */
+    gap: 2rem;
+  }
+  
+  .text-container {
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    margin-bottom: 0rem;
+    padding-left: 5rem;
+    font-family: "Noto Sans KR", serif;
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* 제목 아래 간격 */
+  }
+  
+  .text-container p {
+    font-size: 1rem;
+    color: #555; /* 설명 텍스트 색상 */
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 상단 정렬 */
+    gap: 0rem; /* 텍스트와 이미지 간격 */
+    padding-right: 5rem;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    gap: 1rem; /* 버튼 간격 */
+    justify-content: flex-start; /* 버튼 왼쪽 정렬 */
+    font-family: "Noto Sans KR", serif;
+  }
+  
+  .tags-container button {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 1rem 2rem; /* 버튼 크기를 키움 */
+    font-size: 1.3rem; /* 버튼 텍스트 크기 키움 */
+    cursor: pointer;
+    border-radius: 30px; /* 버튼 모서리 둥글게 */
+    transition: background 0.3s, transform 0.2s;
+    font-family: "Noto Sans KR", serif;
+  }
+  
+  .tags-container button:hover {
+    background-color: #e0e0e0; /* 버튼 hover 효과 */
+    transform: scale(1.05); /* hover 시 크기 확대 */
+  }
+  
+  .space-image {
+    flex-shrink: 0; /* 이미지 크기 고정 */
+    max-width: 50%; /* 이미지 크기 제한 */
+  }
+  
+  .space-image img {
+    width: 100%; /* 부모 요소 너비에 맞춤 */
+    height: auto; /* 비율 유지 */
+    border-radius: 10px; /* 이미지 모서리 둥글게 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  }
+  

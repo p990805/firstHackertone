@@ -1,0 +1,41 @@
+.nav-bar {
+    position: fixed; /* 상단 고정 */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* 다른 요소 위에 표시 */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #ffffff, #f7f7f7, #ececec); /* 흰색 그라데이션 */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
+    padding: 0.3rem 2rem;
+    color: black;
+    font-weight: bold;
+    font-family: "Noto Sans KR", serif;
+  }
+  
+  .nav-logo {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+  }
+  
+  .nav-menu li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav-login a {
+    color: black;
+    margin-left: 0.5rem;
+    text-decoration: none;
+  }
+  

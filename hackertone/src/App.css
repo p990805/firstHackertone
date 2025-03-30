@@ -1,0 +1,15 @@
+/* App.css */
+
+/* 기본 리셋 */
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 60px;
+}

@@ -1,0 +1,13 @@
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400; /* 기본 설정 */
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Noto Sans KR", serif; /* H1에 폰트 적용 */
+}
+
+p {
+  font-family: "Noto Sans KR", serif; /* 단락에도 적용 */
+}
